@@ -1,0 +1,133 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(24, 23, 23);
+}
+
+.titulo
+{
+    font-size: 32px;
+    padding: 100px 490px;
+    position: relative;
+    z-index: 10;
+    color: white;
+}
+
+.perfil1 img
+{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    overflow: hidden;
+    left: 465px;
+}
+
+.perfil1 p
+{
+    position: absolute;
+    overflow: hidden;
+    left: 505px;
+    top: 455px;
+    color: grey;
+}
+
+.perfil1 img:hover
+{
+    border: solid 3px white;
+    cursor: pointer;
+}
+
+.perfil2 img
+{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    overflow: hidden;
+    left: 615px;
+    top: 333px;
+}
+
+.perfil2 p
+{
+    position: absolute;
+    overflow: hidden;
+    left: 645px;
+    top: 455px;
+    color: grey;
+}
+
+.perfil2 img:hover
+{
+    border: solid 3px white;
+    cursor: pointer;
+}
+
+.perfil3 img
+{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    overflow: hidden;
+    left: 765px;
+    top: 333px;
+}
+
+.perfil3 p
+{
+    position: absolute;
+    overflow: hidden;
+    left: 810px;
+    top: 455px;
+    color: grey;
+}
+
+.perfil3 img:hover
+{
+    border: solid 3px white;
+    cursor: pointer;
+}
+
+.addperfil img
+{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    overflow: hidden;
+    left: 915px;
+    top: 333px;
+}
+
+.addperfil p
+{
+    position: absolute;
+    overflow: hidden;
+    left: 922px;
+    top: 455px;
+    color: grey;
+}
+
+.addperfil img:hover
+{
+    border: solid 3px white;
+    cursor: pointer;
+}
+
+.botao
+{
+   top: 590px;
+   left: 680px;
+   position: absolute;
+   overflow: hidden;
+}
+
+.botao:hover
+{
+    cursor: pointer;
+    border: solid 3px white;
+    color: white;
+}
